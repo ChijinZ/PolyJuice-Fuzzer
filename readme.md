@@ -13,6 +13,8 @@ export PYTHONPATH="$PWD"
 export EQ_HELPER_PATH="$PWD/libdl_compiler_fuzzer_helper.so"
 ```
 
+The code of this dynamic library is placed in the ``equality_saturation_helper/rust_helper``.
+
 Next, ``python3 nnsmith/cli/equivalent_fuzz.py --help`` shows how it works:
 
 ```text
